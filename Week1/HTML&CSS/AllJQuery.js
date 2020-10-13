@@ -20,6 +20,10 @@ $(document).ready(function () {
     $(window).resize(function () {
         console.log(i++);
     })
-
-    $('h3').css('background-color',"yellow")
+    $("add").click(function () {
+        var field1=$('field1').val();
+        var field2=$('field2').val();
+        console.log(field1,field2);
+        var markup="<tr><td colspan='2'>"+field1+"</td><td colspan='2'>+field2+</td> </tr>"
+    })
 })
