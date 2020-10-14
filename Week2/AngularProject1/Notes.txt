@@ -1,2 +1,33 @@
 Installtion:
 npm install -g @angular/cli
+ng new Projectname
+=================================
+Format for login component
+@Component({
+  selector : 'app-login',
+  templateUrl: './login.component.html',
+  styleUrls: ['./login.component.css']
+  })
+
+export class LoginComponent {
+  title = 'Login';
+}
+========================
+ng create componenet ComponentName
+CLASSS:-
+
+Components
+Directived
+pipes
+Injectable
+
+  @Directives
+  Component
+  Pipes
+  Directive
+  NgModel
+
+  @Decorator
+    class name{}
+  @injectable
+    class name{}
