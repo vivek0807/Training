@@ -31,3 +31,6 @@ Injectable
     class name{}
   @injectable
     class name{}
+=============================
+for BootStrap
+@import "~bootstrap/dist/css/bootstrap.css";
