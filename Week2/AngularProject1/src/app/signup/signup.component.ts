@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import {FormsModule} from '@angular/forms';
 
 @Component({
@@ -6,11 +6,20 @@ import {FormsModule} from '@angular/forms';
   templateUrl: './signup.component.html',
   styleUrls: ['./signup.component.css']
 })
-export class SignupComponent  {
-  email: any;
-  password: any;
+export class SignupComponent implements OnInit {
+ user={
+   name:"",
+   email:'',
+  password:''
+   }
+
+  @Input() getEmail;
+  @Input() getPassword;
   click(){
-    console.log(this.email,this.password);
+    console.log(this.user);
+  }
+  ngOnInit(): void {
+    console.log(this.getEmail,this.getPassword);
   }
 
 }
