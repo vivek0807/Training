@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ProductComponent } from './product/product.component';
 import { SignupComponent } from './signup/signup.component';
 import {FormsModule} from '@angular/forms';
+import { PlistComponent } from './plist/plist.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {FormsModule} from '@angular/forms';
     LoginComponent,
     NavbarComponent,
     ProductComponent,
-    SignupComponent
+    SignupComponent,
+    PlistComponent
   ],
   imports: [
     BrowserModule,
