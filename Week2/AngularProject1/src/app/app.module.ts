@@ -8,6 +8,7 @@ import { ProductComponent } from './product/product.component';
 import { SignupComponent } from './signup/signup.component';
 import {FormsModule} from '@angular/forms';
 import { PlistComponent } from './plist/plist.component';
+import {CommonService} from './common.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { PlistComponent } from './plist/plist.component';
     BrowserModule,
     FormsModule
   ],
-  providers: [],
+  providers: [CommonService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
