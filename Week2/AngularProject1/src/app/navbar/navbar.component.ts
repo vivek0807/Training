@@ -7,4 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent  {
   title = 'Navbar';
+  logout= false;
+
+  change(){
+    this.logout= !this.logout;
+  }
+
 }
