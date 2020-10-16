@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser';
+import {BrowserModule} from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
@@ -9,7 +9,13 @@ import { SignupComponent } from './signup/signup.component';
 import {FormsModule} from '@angular/forms';
 import { PlistComponent } from './plist/plist.component';
 import {CommonService} from './common.service';
+import {HttpClientModule} from '@angular/common/http';
+import { AddproductComponent } from './addproduct/addproduct.component';
+import { NewrootComponent } from './newroot/newroot.component';
+import { AppRoutingModule } from './app-routing.module';
+import {RouterModule, Route} from '@angular/router';
 
+var routes : Route[]= [{path: 'login',component : SignupComponent}];
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,11 +23,16 @@ import {CommonService} from './common.service';
     NavbarComponent,
     ProductComponent,
     SignupComponent,
-    PlistComponent
+    PlistComponent,
+    AddproductComponent,
+    NewrootComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
+    AppRoutingModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [CommonService],
   bootstrap: [AppComponent]
