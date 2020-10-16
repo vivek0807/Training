@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {HttpClient} from '@angular/common/http';
+import {HttpClient, HttpHeaders} from '@angular/common/http';
 import {formatDate} from '@angular/common';
 
 @Component({
@@ -20,12 +20,20 @@ export class AddproductComponent implements OnInit {
     image:any;
   send(){
 
-    console.log(this.image,this.brand,this.price,this.name);
+      var file : any =document.getElementById('file');
+    console.log(file.files[0],this.brand,this.price,this.name);
    // var url ="https://apibyashu.herokuapp.com/api/login"// recoverpassword";//login
     var url="https://apibyashu.herokuapp.com/api/upload";
-    let formData : FormData=new FormData();
-    formData.append('image',this.image);
-    this.http.post(url,formData).subscribe(function(response){
+
+    var formData : FormData=new FormData();
+
+    formData.append('file',file.files[0]);
+
+    var headersobj=new HttpHeaders();
+
+    headersobj.append('Content-Type','multipart/form-data');
+
+    this.http.post(url,formData,{headers : headersobj}).subscribe(function(response){
       console.log("response from api",response)
     },function(error){
       console.log("erroe from api",error);
