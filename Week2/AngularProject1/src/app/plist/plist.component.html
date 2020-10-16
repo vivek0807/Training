@@ -1,1 +1,2 @@
-<app-product *ngFor="let each of dummyproducts" [pname]="each.name" [pprice]="each.price" ></app-product>
+<button (click)="check()">Start</button>
+<app-product *ngFor="let each of data" [pname]="each.name" [pprice]="each.price" ></app-product>

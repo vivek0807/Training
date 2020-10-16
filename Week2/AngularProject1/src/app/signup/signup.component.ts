@@ -10,10 +10,11 @@ import {HttpClient} from '@angular/common/http';
 export class SignupComponent implements OnInit {
 
   user={
-   name:"Vivek",
-   email:'',
-  password:''
-   }
+    name:"Vivek",
+    email:'',
+    password:''
+  }
+
 
   @Input() getEmail;
   @Input() getPassword;
@@ -26,19 +27,48 @@ export class SignupComponent implements OnInit {
   }*/
   // tslint:disable-next-line:typedef
 
-  check(){
+  register(){
+
     if(this.user.email== 'test' )
     {this.commonService.isuserLoggedin= true;}
     console.log("Clicked");
     console.log("signup "+this.user.email,this.user.name,this.user.password);
-   /* var url ="https://apibyashu.herokuapp.com/api/login"// recoverpassword";//login
+    var url ="https://apibyashu.herokuapp.com/api/register"// recoverpassword";//login
 
     this.http.post(url,this.user).subscribe(function(response){
       console.log("response from api",response)
     },function(error){
       console.log("erroe from api",error)
-    })*/
+    })
   }
+  Login(){
+    if(this.user.email== 'test' )
+    {this.commonService.isuserLoggedin= true;}
+    console.log("Clicked");
+    console.log("signup "+this.user.email,this.user.name,this.user.password);
+    var url ="https://apibyashu.herokuapp.com/api/login"// recoverpassword";//login
+
+    this.http.post(url,this.user).subscribe(function(response){
+      console.log("response from api",response)
+    },function(error){
+      console.log("erroe from api",error)
+    })
+  }
+  recover(){
+
+    if(this.user.email== 'test' )
+    {this.commonService.isuserLoggedin= true;}
+    console.log("Clicked");
+    console.log("signup "+this.user.email,this.user.name,this.user.password);
+    var url ="https://apibyashu.herokuapp.com/api/recoverpassword";//login
+
+    this.http.post(url,this.user).subscribe(function(response){
+      console.log("response from api",response)
+    },function(error){
+      console.log("erroe from api",error)
+    })
+  }
+
   ngOnInit(): void {
     console.log(this.getEmail,this.getPassword);
   }

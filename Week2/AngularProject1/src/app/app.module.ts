@@ -13,9 +13,10 @@ import {HttpClientModule} from '@angular/common/http';
 import { AddproductComponent } from './addproduct/addproduct.component';
 import { NewrootComponent } from './newroot/newroot.component';
 import { AppRoutingModule } from './app-routing.module';
-import {RouterModule, Route} from '@angular/router';
+import {RouterModule} from '@angular/router';
+import { HomeComponent } from './home/home.component';
 
-var routes : Route[]= [{path: 'login',component : SignupComponent}];
+//var routes : Route[]= [{path: 'login',component : SignupComponent}];
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,14 +26,16 @@ var routes : Route[]= [{path: 'login',component : SignupComponent}];
     SignupComponent,
     PlistComponent,
     AddproductComponent,
-    NewrootComponent
+    NewrootComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpClientModule,
     AppRoutingModule,
-    RouterModule.forRoot(routes)
+    RouterModule
+
   ],
   providers: [CommonService],
   bootstrap: [AppComponent]
