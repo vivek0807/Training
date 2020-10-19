@@ -1,7 +1,9 @@
+<a  class=" btn btn-primary" routerLink="/cart">Go To cart</a>
 <div class="card" style="width:18rem">
   <img src="{{pimage}}" class="card-img-top" alt="...">
   <div class="card-body" >
     <h5 class="card-title" common-Directive>{{pname}}</h5>
     <p class="card-text" common-Directive>{{pprice| discount}}</p>
+    <button (click)="addtoCart()"  class="btn btn-primary">Add to cart</button>
   </div>
 </div>

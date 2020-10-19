@@ -17,6 +17,8 @@ import {RouterModule} from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import {DiscountPipe} from './discount.pipe';
 import {CommonDirective} from './common.directive';
+import { CartComponent } from './cart/cart.component';
+import { DetailsComponent } from './details/details.component';
 
 //var routes : Route[]= [{path: 'login',component : SignupComponent}];
 @NgModule({
@@ -31,7 +33,9 @@ import {CommonDirective} from './common.directive';
     NewrootComponent,
     HomeComponent,
     DiscountPipe,
-    CommonDirective
+    CommonDirective,
+    CartComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,

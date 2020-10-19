@@ -8,13 +8,17 @@ import {AddproductComponent} from './addproduct/addproduct.component';
 import {HomeComponent} from './home/home.component';
 import {PlistComponent} from './plist/plist.component';
 import {NavbarComponent} from './navbar/navbar.component';
+import {CartComponent} from './cart/cart.component';
+
 
 
 var routes : Route[]= [{path:'',component : HomeComponent},
   {path: 'login', component : SignupComponent},
   {path: 'addprod', component : AddproductComponent},
   {path: 'list', component: PlistComponent},
-  {path : 'nav',component :NavbarComponent}];
+  {path : 'nav',component : NavbarComponent},
+  {path : 'cart' , component : CartComponent},
+  ];
 
 @NgModule({
   declarations: [],
