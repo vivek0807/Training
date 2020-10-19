@@ -10,5 +10,6 @@ export class ProductComponent {
  title = 'product';
  @Input() pname;
  @Input() pprice;
+ @Input() pimage;
 
 }

@@ -28,7 +28,6 @@ export class AddproductComponent implements OnInit {
     var formData : FormData=new FormData();
 
     formData.append('file',file.files[0]);
-
     var headersobj=new HttpHeaders();
 
     headersobj.append('Content-Type','multipart/form-data');

@@ -15,6 +15,8 @@ import { NewrootComponent } from './newroot/newroot.component';
 import { AppRoutingModule } from './app-routing.module';
 import {RouterModule} from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import {DiscountPipe} from './discount.pipe';
+import {CommonDirective} from './common.directive';
 
 //var routes : Route[]= [{path: 'login',component : SignupComponent}];
 @NgModule({
@@ -27,7 +29,9 @@ import { HomeComponent } from './home/home.component';
     PlistComponent,
     AddproductComponent,
     NewrootComponent,
-    HomeComponent
+    HomeComponent,
+    DiscountPipe,
+    CommonDirective
   ],
   imports: [
     BrowserModule,
