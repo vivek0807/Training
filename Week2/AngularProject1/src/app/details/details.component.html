@@ -1,1 +1,17 @@
-<p>details works!</p>
+<div class="card" style="width:18rem">
+  <img src="{{image}}" class="card-img-top" alt="...">
+  <div class="card-body" >
+    <h5 class="card-title" >Name -->{{data["name"]}}</h5>
+    <p class="card-text">Price -->{{price}}</p>
+    <p class="card-text">Brand-->{{data["brand"]}}</p>
+    <p class="card-text">Quantity->{{data["quantity"]}}</p>
+    <p class="card-text">Category->{{data["category"]}}</p>
+    <p class="card-text">Category->{{data["quantity"]}}</p>
+    <p class="card-text">Ratings->{{data["ratings"]}}</p>
+    <p class="card-text">Reviews->{{data["reviews"]}}</p>
+    <p class="card-text">Seller->{{data["seller"]}}</p>
+
+  </div>
+  <button class="btn btn-primary" (click)="Remove()" >Remove</button>
+</div>
+

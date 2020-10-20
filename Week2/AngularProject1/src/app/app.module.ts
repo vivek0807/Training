@@ -19,6 +19,7 @@ import {DiscountPipe} from './discount.pipe';
 import {CommonDirective} from './common.directive';
 import { CartComponent } from './cart/cart.component';
 import { DetailsComponent } from './details/details.component';
+import { FormsComponent } from './forms/forms.component';
 
 //var routes : Route[]= [{path: 'login',component : SignupComponent}];
 @NgModule({
@@ -35,7 +36,9 @@ import { DetailsComponent } from './details/details.component';
     DiscountPipe,
     CommonDirective,
     CartComponent,
-    DetailsComponent
+    DetailsComponent,
+    FormsComponent
+
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,5 @@
 <p>cart works!</p>
+<h3>Total Price to pay {{sum}}</h3>
 <h2 class="jumbotron">Enter your email to add data</h2>
 <input type="email" [(ngModel)]="email" class="col-lg-3 form-control" >
 <div class="card" style="width:18rem">
@@ -7,15 +8,23 @@
     <h5 class="card-title" common-Directive>{{product.name}}</h5>
     <p class="card-text" common-Directive>{{product.price}}</p>
   </div>
+  <button class="btn btn-primary" (click)="viewdetails()" >Details</button>
+
 </div>
 <button  class="btn btn-primary" (click)="addtocart()"> Send to cart | View all items</button>
+<div class="card col-lg-3" style="width: 500px">
 <div *ngFor="let each of items" >
-
-  <div class="card" style="width:18rem">
+  <!--to access properties of image we can use interpolation {{}}-->
     <img src="{{each.image}}" class="card-img-top" alt="...">
-    <div class="card-body" >
-      <h5 class="card-title" common-Directive>{{each.name}}</h5>
-      <p class="card-text" common-Directive>{{each.price}}</p>
+    <div class="card-body">
+      <h5  class="card-title">{{each.name}}</h5> <!--ase use krte h interpolation to use property of class in html-->
+      <p  class="card-text">Price: {{each.price}}</p>
+      <text  class="card-text" [(ngModel)]="productid">{{each.productid}}</text>
+      <button (click)="addtocart()" class="btn btn-primary">Add To Cart</button>
+      <button (click)="remove()" class="btn btn-primary">Remove</button>
     </div>
   </div>
 </div>
+
+
+
