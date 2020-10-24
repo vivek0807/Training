@@ -1,16 +1,23 @@
 {
-  "name": "nodeapp",
+  "name": "myapp",
   "version": "1.0.0",
   "description": "",
-  "main": "file1.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node file1.js"
+    "start": "node expressdemo.js",
+    "dev": "nodemon expressdemo.js"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "eslint": "^7.11.0"
+  "devDependencies": {},
+  "dependencies": {
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "console-read-write": "^0.1.1",
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1",
+    "seneca": "^3.22.0",
+    "seneca-mongo-store": "^4.0.0"
   }
 }

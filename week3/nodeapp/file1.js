@@ -1,6 +1,9 @@
-//var app=require('express');
+var express=require('express');
 var http=require('http');
 const fs=require('fs')
+
+var app=express();
+
 const data=fs.readFileSync('data.txt','utf-8');
 console.log(data)
 
@@ -11,10 +14,12 @@ fs.copyFile("data.txt", "data_copy.txt", (err) => {
     } 
     else { 
       //getCurrentFilenames(); 
-      //console.log("\nFile Contents of copied_file:", 
-       // fs.readFileSync("copied_file.txt", "utf8")); 
+      //console.log("\nFile Contents of copied_file:",  
+       // fs.readFileSync("copied_file.txt", "utf8"));
     } 
   });
+
+
 
 fs.readFile('data.txt','utf-8',function(err,data){
     if(err){
@@ -30,9 +35,14 @@ fs.readFile('data.txt','utf-8',function(err,data){
                 res.write("<HTML><h2>Welcome</h2></HTML>");
             res.end();
             }
+            
+  app.get('express',(req,res)=>{
+    console.log("Express")
+    res.send("Express working");
+    res.end();
+})
           }).listen(55555)
         
         
         }
 })
-
