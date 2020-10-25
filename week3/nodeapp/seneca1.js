@@ -1,5 +1,4 @@
 const seneca=require('seneca')({log:"silent"})
-const io = require('console-read-write');
 
 //senecaobj.quite();
 //console.log(seneca.id)
