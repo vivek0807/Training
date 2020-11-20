@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Employee Management Portal</h1>
+    <p class="lead">One stop place for managing all employee related information.</p>
+</div>
+
+<div>
+    Are you new to this Portal? 
+    Then please register yourself @Html.ActionLink("HERE", "Register", "User")
+</div>
+
+<div>
+    @Html.ActionLink("Login","Login","User") here to access all the functionalities. 
+</div>

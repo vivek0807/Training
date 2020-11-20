@@ -1,0 +1,36 @@
+<h1>Online Bookstore</h1>
+Search by Title : 
+<input type="text" name="title" id="title" [(ngModel)]="title">
+<button (click)="getBooksByTitle()" class="btn btn-primary">Search</button>
+<br>
+<div *ngIf="books.length==0">Please make a search</div>
+<table class="table table-striped" *ngIf="books.length>0">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Rating</th>
+      <th>Category</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let book of books">
+      <td >{{book.id}}</td>
+      <td >{{book.title}}</td>
+      <td >{{book.rating}}</td>
+      <td >{{book.category}}</td>
+      <td><button (click)="addToCart(book.title)" class="btn btn-primary">Add to cart</button></td>
+    </tr>
+   
+  </tbody>
+</table>
+
+<button (click)="showCart()" class="btn btn-primary">Show cart</button> &nbsp;
+<button (click)="checkout()" class="btn btn-primary">Checkout</button>
+<div *ngIf="cart.length>0">Books in cart
+<ul *ngFor="let book of cart">
+  <li>{{book.title}}</li>
+</ul>
+</div>
+<div *ngIf="cart.length==0">Cart is empty!!</div>
+
