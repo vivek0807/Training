@@ -11,3 +11,16 @@ C:\Users\v.cn.kumar.DIR\Documents\GitHub\Training\c#\codesBasics\codesBasics\bin
 C:\Users\v.cn.kumar.DIR\Documents\GitHub\Training\c#\codesBasics\codesBasics\obj\Debug\netcoreapp3.1\codesBasics.dll
 C:\Users\v.cn.kumar.DIR\Documents\GitHub\Training\c#\codesBasics\codesBasics\obj\Debug\netcoreapp3.1\codesBasics.pdb
 C:\Users\v.cn.kumar.DIR\Documents\GitHub\Training\c#\codesBasics\codesBasics\obj\Debug\netcoreapp3.1\codesBasics.genruntimeconfig.cache
+D:\Documents\GitHub\Training\c#\codesBasics\codesBasics\bin\Debug\netcoreapp3.1\codesBasics.exe
+D:\Documents\GitHub\Training\c#\codesBasics\codesBasics\bin\Debug\netcoreapp3.1\codesBasics.deps.json
+D:\Documents\GitHub\Training\c#\codesBasics\codesBasics\bin\Debug\netcoreapp3.1\codesBasics.runtimeconfig.json
+D:\Documents\GitHub\Training\c#\codesBasics\codesBasics\bin\Debug\netcoreapp3.1\codesBasics.runtimeconfig.dev.json
+D:\Documents\GitHub\Training\c#\codesBasics\codesBasics\bin\Debug\netcoreapp3.1\codesBasics.dll
+D:\Documents\GitHub\Training\c#\codesBasics\codesBasics\bin\Debug\netcoreapp3.1\codesBasics.pdb
+D:\Documents\GitHub\Training\c#\codesBasics\codesBasics\obj\Debug\netcoreapp3.1\codesBasics.csprojAssemblyReference.cache
+D:\Documents\GitHub\Training\c#\codesBasics\codesBasics\obj\Debug\netcoreapp3.1\codesBasics.AssemblyInfoInputs.cache
+D:\Documents\GitHub\Training\c#\codesBasics\codesBasics\obj\Debug\netcoreapp3.1\codesBasics.AssemblyInfo.cs
+D:\Documents\GitHub\Training\c#\codesBasics\codesBasics\obj\Debug\netcoreapp3.1\codesBasics.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\Training\c#\codesBasics\codesBasics\obj\Debug\netcoreapp3.1\codesBasics.dll
+D:\Documents\GitHub\Training\c#\codesBasics\codesBasics\obj\Debug\netcoreapp3.1\codesBasics.pdb
+D:\Documents\GitHub\Training\c#\codesBasics\codesBasics\obj\Debug\netcoreapp3.1\codesBasics.genruntimeconfig.cache
