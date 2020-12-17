@@ -1,0 +1,13 @@
+C:\Users\v.cn.kumar.DIR\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\bin\Debug\netcoreapp3.1\CodeBasics.exe
+C:\Users\v.cn.kumar.DIR\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\bin\Debug\netcoreapp3.1\CodeBasics.deps.json
+C:\Users\v.cn.kumar.DIR\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\bin\Debug\netcoreapp3.1\CodeBasics.runtimeconfig.json
+C:\Users\v.cn.kumar.DIR\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\bin\Debug\netcoreapp3.1\CodeBasics.runtimeconfig.dev.json
+C:\Users\v.cn.kumar.DIR\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\bin\Debug\netcoreapp3.1\CodeBasics.dll
+C:\Users\v.cn.kumar.DIR\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\bin\Debug\netcoreapp3.1\CodeBasics.pdb
+C:\Users\v.cn.kumar.DIR\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\obj\Debug\netcoreapp3.1\CodeBasics.csprojAssemblyReference.cache
+C:\Users\v.cn.kumar.DIR\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\obj\Debug\netcoreapp3.1\CodeBasics.AssemblyInfoInputs.cache
+C:\Users\v.cn.kumar.DIR\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\obj\Debug\netcoreapp3.1\CodeBasics.AssemblyInfo.cs
+C:\Users\v.cn.kumar.DIR\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\obj\Debug\netcoreapp3.1\CodeBasics.csproj.CoreCompileInputs.cache
+C:\Users\v.cn.kumar.DIR\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\obj\Debug\netcoreapp3.1\CodeBasics.dll
+C:\Users\v.cn.kumar.DIR\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\obj\Debug\netcoreapp3.1\CodeBasics.pdb
+C:\Users\v.cn.kumar.DIR\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\obj\Debug\netcoreapp3.1\CodeBasics.genruntimeconfig.cache
