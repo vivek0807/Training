@@ -2,6 +2,16 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Collections;
+using another;
+namespace another
+{
+    class letsusethis
+    {
+        public float price { get; set; }
+        string name { get; set; }
+       
+    }
+}
 namespace CodeBasics
 {
     class Collection
@@ -25,6 +35,12 @@ namespace CodeBasics
                 Console.WriteLine(al.Count);
                 
             }
+            letsusethis lt = new letsusethis();
+            lt.price = 50.0f;
+            Console.WriteLine(lt.price);
+      
+
+            
         }
     }
 }
