@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace CodeBasics
 {
@@ -22,12 +23,16 @@ namespace CodeBasics
     class main
     {
         static void Main(string[] args) {
-            Console.WriteLine("Enter two number");
-            int n1 = Convert.ToInt32(Console.ReadLine());
-            int n2 = Convert.ToInt32(Console.ReadLine());
-            bool final = n1 > n2;
-            Console.WriteLine(final);
-       
+            Console.WriteLine("Enter a numeric string");
+            string s = Console.ReadLine();
+            char[] n = s.ToCharArray();
+            for(int i = 0; i < s.Length; i++)
+            {
+                Console.Write(Convert.ToInt32(n[i].ToString())+ " ");
+            }
+         
         }
     }
 }
+
+

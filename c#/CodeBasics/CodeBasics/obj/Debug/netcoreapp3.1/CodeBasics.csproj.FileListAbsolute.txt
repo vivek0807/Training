@@ -11,3 +11,16 @@ C:\Users\v.cn.kumar.DIR\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\obj\D
 C:\Users\v.cn.kumar.DIR\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\obj\Debug\netcoreapp3.1\CodeBasics.dll
 C:\Users\v.cn.kumar.DIR\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\obj\Debug\netcoreapp3.1\CodeBasics.pdb
 C:\Users\v.cn.kumar.DIR\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\obj\Debug\netcoreapp3.1\CodeBasics.genruntimeconfig.cache
+D:\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\bin\Debug\netcoreapp3.1\CodeBasics.exe
+D:\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\bin\Debug\netcoreapp3.1\CodeBasics.deps.json
+D:\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\bin\Debug\netcoreapp3.1\CodeBasics.runtimeconfig.json
+D:\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\bin\Debug\netcoreapp3.1\CodeBasics.runtimeconfig.dev.json
+D:\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\bin\Debug\netcoreapp3.1\CodeBasics.dll
+D:\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\bin\Debug\netcoreapp3.1\CodeBasics.pdb
+D:\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\obj\Debug\netcoreapp3.1\CodeBasics.csprojAssemblyReference.cache
+D:\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\obj\Debug\netcoreapp3.1\CodeBasics.AssemblyInfoInputs.cache
+D:\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\obj\Debug\netcoreapp3.1\CodeBasics.AssemblyInfo.cs
+D:\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\obj\Debug\netcoreapp3.1\CodeBasics.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\obj\Debug\netcoreapp3.1\CodeBasics.dll
+D:\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\obj\Debug\netcoreapp3.1\CodeBasics.pdb
+D:\Documents\GitHub\Training\c#\CodeBasics\CodeBasics\obj\Debug\netcoreapp3.1\CodeBasics.genruntimeconfig.cache
