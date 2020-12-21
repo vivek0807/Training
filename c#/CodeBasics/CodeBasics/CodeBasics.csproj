@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>ObjectOriented.Oop</StartupObject>
+    <StartupObject>ObjectOriented.main</StartupObject>
   </PropertyGroup>
 
 </Project>

@@ -4,38 +4,75 @@ using System.Text;
 
 namespace ObjectOriented
 {
-    class A
+    interface implementer
     {
-        private int productid;
-        private string productName;
-        private float price;
-        public float Price { get => price; set => price = value; }
-        public string ProductName { get => productName; set => productName = value; }
-        public int Productid { get => productid; set => productid = value; }
+       void  nameme();
+        void youNameMe(string getname);
+    }
+    class Game:implementer
+    {
+        private string name;
+        private int maxNumPlayers;
 
-        public void display(int n)
+
+        public string Name { get => name; set => name = value; }
+        public int MaxNumPlayers { get => maxNumPlayers; set => maxNumPlayers = value; }
+
+        public override string ToString()
         {
-            Console.WriteLine(ProductName + " " + Price);
+            return Name+" has max players -->"+MaxNumPlayers.ToString();
         }
+       public void nameme()
+        {
+            Name = "Set the name";
+        }
+       public void youNameMe(string name)
+        {
+            Name = name;
+        }
+    }
+    class main
+    {
+        static void Main()
+        {
+           Game game = new Game();
+           game.Name = "Cricket";
+            game.MaxNumPlayers = 11;
+             Console.WriteLine(game);
+            
+        }
+    }
+}
+
+
+namespace insaurance
+{
+    class Insaurance
+    {
+        private int ino;
+        private string iname;
+        private double amtcovered;
+
+        public int Ino { get => ino; set => ino = value; }
+        public string Iname { get => iname; set => iname = value; }
+        public double Amtcovered { get => amtcovered; set => amtcovered = value; }
 
     }
-    class B:A  
+
+    class Motorinsaurance:Insaurance
     {
-        private string productname = "Charger";
-       new  public void  display()
+        private double idv;
+        private float depPercent;
+
+        public double Idv { get => idv; set => idv = value; }
+        public float DepPercent { get => depPercent; set => depPercent = value; }
+
+        public double calculatePreminum()
         {
-            base.display(5);
-           // Console.WriteLine(productname);
+            return Amtcovered - ((Amtcovered * DepPercent) / 100);
         }
     }
-    class Oop
-    {
-        public static void Main()
-        {
-            B a = new B();
-            a.Price = 50f;
-            a.display();
-           
-        }
-    }
+
+    class LifeInsaurance:Insaurance
+    { }
 }
